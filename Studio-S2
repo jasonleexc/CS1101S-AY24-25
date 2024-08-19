@@ -1,0 +1,35 @@
+// 1. when given a regular combo returns a biggie-size version 
+function biggie_size(n) {
+    return n + 4;
+}
+
+// 2. when given a biggie-sized combo, returns a regular version
+function unbiggie_size(n) {
+    return n - 4;
+}
+
+// 3. returns true if biggie-sized, false otherwise
+function is_biggie_size(n) {
+    return n > 4 ? true : false;
+}
+
+// 4. returns price of combo entered 
+function combo_price(n) {
+    return n > 4 ? (n - 4) * 1.17 + 0.5 : n * 1.17;
+}
+
+// 5. returns an empty order represented by 0
+function empty_order() {
+    return 0;
+}
+
+// 6. returns new order 
+function add_to_order(a, b) {
+    return a * 10 + b;
+}
+
+// 7. takes an order and returns the last combo 
+function last_combo(n) {
+    return
+}
+
