@@ -30,6 +30,12 @@ function add_to_order(a, b) {
 
 // 7. takes an order and returns the last combo 
 function last_combo(n) {
-    return
+    return n % 10;
 }
+
+// 8. takes an order and returns without the last order
+function other_combos(n) {
+    return math_floor(n / 10);
+}
+
 
