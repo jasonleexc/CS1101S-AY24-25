@@ -12,10 +12,17 @@ function unbiggie_size(n) {
 function is_biggie_size(n) {
     return n > 4 ? true : false;
 }
+// actually no need to write "true : false" since it's already a boolean
 
 // 4. returns price of combo entered 
 function combo_price(n) {
-    return n > 4 ? (n - 4) * 1.17 + 0.5 : n * 1.17;
+    return n > 4 
+    ? (n - 4) * 1.17 + 0.5 
+    : n * 1.17;
+}
+// try to make use of previous functions
+function combo_price(n) {
+    return 
 }
 
 // 5. returns an empty order represented by 0
