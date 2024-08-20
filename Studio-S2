@@ -22,7 +22,9 @@ function combo_price(n) {
 }
 // try to make use of previous functions
 function combo_price(n) {
-    return 
+    return is_biggie_size(n)
+    ? (unbiggie_size(n) - 4) * 1.17 + 0.50
+    : n * 1.17;
 }
 
 // 5. returns an empty order represented by 0
