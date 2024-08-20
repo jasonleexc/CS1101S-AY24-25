@@ -17,14 +17,14 @@ function is_biggie_size(n) {
 // 4. returns price of combo entered 
 function combo_price(n) {
     return n > 4 
-    ? (n - 4) * 1.17 + 0.5 
-    : n * 1.17;
+        ? (n - 4) * 1.17 + 0.5 
+        : n * 1.17;
 }
 // try to make use of previous functions
 function combo_price(n) {
     return is_biggie_size(n)
-    ? (unbiggie_size(n) - 4) * 1.17 + 0.50
-    : n * 1.17;
+        ? (unbiggie_size(n) - 4) * 1.17 + 0.50
+        : n * 1.17;
 }
 
 // 5. returns an empty order represented by 0
